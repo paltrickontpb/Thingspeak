@@ -1,6 +1,6 @@
 import httplib, urllib
 
-WRITE_API_KEY = 'FH09RW1R5V9QHGN5'
+WRITE_API_KEY = ''
 
 def tspost(val1,val2):
     params = urllib.urlencode({'field1': val1, 'field2': val2,'key': WRITE_API_KEY})
